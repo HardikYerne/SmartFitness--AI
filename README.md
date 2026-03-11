@@ -92,17 +92,7 @@ Users can track:
 
 ## 🚀Model Architecture
 
-User Profile Features
-(age, weight, BP)
-        ↓
-        ANN
-        ↓
-                → Merge → Prediction
-        ↓
-        LSTM
-        ↓
-Activity Time-Series
-(steps, activity minutes, calories)
+![1773260707788](image/README/1773260707788.png)
 
 ---
 
@@ -166,23 +156,11 @@ The model is trained using:
 
 ## 💎Project Pipeline
 
-Raw Dataset
-      ↓
-Data Preprocessing
-      ↓
-Feature Scaling
-      ↓
-LSTM Sequence Creation
-      ↓
-ANN + LSTM Model Training
-      ↓
-Model Evaluation
-      ↓
-API Deployment
-      ↓
-Fitness App Interface
+![1773260642259](image/README/1773260642259.png)
 
 ---
+
+
 
 ## ⚙️Tech Stack
 
@@ -202,59 +180,6 @@ Fitness App Interface
 
 ## 🧰SmartFitness-AI Project Architecture
 
-FitnessAI/
-│
-├── data/                     # managed by DVC
-│   ├── raw/
-│   └── processed/
-│
-├── src/
-│   ├── data_ingestion/
-│   │   ├── load_fitbit.py
-│   │   └── merge_datasets.py
-│   │
-│   ├── preprocessing/
-│   │   ├── clean_data.py
-│   │   └── feature_engineering.py
-│   │
-│   ├── sequence_builder/
-│   │   └── create_lstm_sequences.py
-│   │
-│   ├── model/
-│   │   ├── ann_model.py
-│   │   ├── lstm_model.py
-│   │   ├── hybrid_model.py
-│   │   └── train_model.py
-│   │
-│   ├── evaluation/
-│   │   ├── evaluate_model.py
-│   │   └── metrics.py
-│   │
-│   ├── recommendation/
-│   │   └── workout_recommender.py
-│   │
-│   └── utils/
-│       ├── config.py
-│       └── helpers.py
-│
-├── backend/                  # FastAPI APIs
-│   └── api.py
-│
-├── frontend/                 # fitness dashboard
-│   └── React / Next.js app
-│
-├── mlflow/                   # experiment tracking
-│
-├── docker/
-│   ├── Dockerfile.backend
-│   └── docker-compose.yaml
-│
-├── cicd/
-│   └── github_actions.yaml
-│
-├── deployment/
-│   └── kubernetes/
-│
-├── dvc.yaml
-├── requirements.txt
-└── README.md
+![1773260525283](image/README/1773260525283.png)
+
+![1773260550305](image/README/1773260550305.png)

@@ -1,0 +1,9 @@
+1)git init
+2)dir
+3)git add README.md
+4)git add .
+5)git commit -m "Add README file"
+6)git pull origin main --allow-unrelated-histories
+7)git push origin main
+8)dvc init
+9)

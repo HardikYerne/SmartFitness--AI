@@ -1,4 +1,3 @@
-
 # 🏋️SmartFitness-AI
 
 An **AI-powered fitness assistant** that analyzes user health data and activity history to predict fitness level, estimate calories burned, and generate personalized workout recommendations with interactive 3D exercise guidance.
@@ -92,7 +91,7 @@ Users can track:
 
 ## 🚀Model Architecture
 
-![1773260707788](image/README/1773260707788.png)
+![1773296180618](image/README/1773296180618.png)
 
 ---
 
@@ -156,11 +155,9 @@ The model is trained using:
 
 ## 💎Project Pipeline
 
-![1773260642259](image/README/1773260642259.png)
+![1773296235843](image/README/1773296235843.png)
 
 ---
-
-
 
 ## ⚙️Tech Stack
 
@@ -180,6 +177,4 @@ The model is trained using:
 
 ## 🧰SmartFitness-AI Project Architecture
 
-![1773260525283](image/README/1773260525283.png)
-
-![1773260550305](image/README/1773260550305.png)
+![1773296254600](image/README/1773296254600.png)![1773296273670](image/README/1773296273670.png)

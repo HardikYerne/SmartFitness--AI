@@ -91,7 +91,7 @@ Users can track:
 
 ## 🚀Model Architecture
 
-![1773296180618](image/README/1773296180618.png)
+![1773296771530](image/README/1773296771530.png)
 
 ---
 
@@ -155,7 +155,7 @@ The model is trained using:
 
 ## 💎Project Pipeline
 
-![1773296235843](image/README/1773296235843.png)
+![1773296795427](image/README/1773296795427.png)
 
 ---
 
@@ -177,4 +177,35 @@ The model is trained using:
 
 ## 🧰SmartFitness-AI Project Architecture
 
-![1773296254600](image/README/1773296254600.png)![1773296273670](image/README/1773296273670.png)
+![1773296823400](image/README/1773296823400.png)![1773296833549](image/README/1773296833549.png)
+
+---
+
+
+
+## 📌Future System (Advanced **Version)**
+
+
+In the future, the system will be enhanced using **Transformer** **and NLP** **models** to generate more intelligent and personalized exercise plans.
+
+Possible improvements:
+
+### Transformer **Models**
+
+Using transformer architectures to analyze long-term activity patterns and user behavior.
+
+**Examples:**
+
+* **BERT**
+* **GPT**
+
+These models can improve prediction accuracy and generate better recommendations.
+
+
+### NLP-Based Exercise **Generation**
+
+Natural Language Processing will allow the system to generate dynamic workout plansbased on user queries.
+
+### Future  Architecture
+
+![1773297717661](image/README/1773297717661.png)
